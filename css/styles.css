@@ -235,6 +235,7 @@ a {
 
 .button--heading:hover {
     background-color: var(--color-headings);
+    color: white;
 }
 
 .button--accent {
@@ -324,6 +325,10 @@ a {
 
 .card--primary .badge--primary {
     background: #126de4;
+}
+
+.card__body .btn:hover {
+
 }
 
 /* -- Plans -- */
