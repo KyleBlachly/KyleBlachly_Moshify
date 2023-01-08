@@ -327,8 +327,8 @@ a {
     background: #126de4;
 }
 
-.card__body .btn:hover {
-
+.card__body .list__item {
+    color: var(--color-headings);
 }
 
 /* -- Plans -- */
