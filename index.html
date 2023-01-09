@@ -36,7 +36,7 @@
       <nav class="nav collapsible">
         <div class="container">
           <div class="nav__brand" href="/">
-            <img src="images/logo.png" alt="" />
+            <img src="images/logo.png" alt="logo" />
           </div>
           <svg class="icon icon--white nav__toggler">
             <use href="icons/sprite.svg#menu"></use>
@@ -80,7 +80,12 @@
         </p>
       </header>
       <div class="input-group">
-        <input type="text" class="input" placeholder="Enter domain name here" />
+        <input
+          aria-label="Domain"
+          type="text"
+          class="input"
+          placeholder="Enter domain name here"
+        />
         <button class="btn button--accent">
           <svg class="icon icon--white">
             <use href="icons/sprite.svg#search"></use>
